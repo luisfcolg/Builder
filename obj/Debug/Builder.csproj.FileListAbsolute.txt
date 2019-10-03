@@ -1,0 +1,9 @@
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\bin\Debug\Builder.exe.config
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\bin\Debug\Builder.exe
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\bin\Debug\Builder.pdb
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\obj\Debug\Builder.csprojAssemblyReference.cache
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\obj\Debug\Builder.GUI.resources
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\obj\Debug\Builder.Properties.Resources.resources
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\obj\Debug\Builder.csproj.GenerateResource.cache
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\obj\Debug\Builder.exe
+C:\Users\luis_\OneDrive\Escritorio\Escuela\7° Semestre\Patrones de Diseño\Repositorios Tareas\Builder\Builder\obj\Debug\Builder.pdb
