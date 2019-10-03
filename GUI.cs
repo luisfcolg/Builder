@@ -200,6 +200,8 @@ namespace Builder
             UpdateTotal();
             eliminar.Enabled = false;
             pagar.Enabled = false;
+
+            MessageBox.Show("Cuenta pagada con éxito.");
         }
     }
 }

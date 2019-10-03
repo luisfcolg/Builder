@@ -329,6 +329,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "GUI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hamburguesas";
             ((System.ComponentModel.ISupportInitialize)(this.pollo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pescado)).EndInit();
