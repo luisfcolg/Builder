@@ -8,14 +8,14 @@ using System.Drawing;
 
 namespace Builder.Builder
 {
-    class PescadoBuilder : HamburguesaBuilder
+    class QuesoSBuilder : SandwichBuilder
     {
-        public PescadoBuilder(CarneEnum carne, PanEnum pan, Image imagen)
+        public QuesoSBuilder(CarneEnum carne, PanEnum pan, Image imagen)
         {
-            _hamburguesa = new Hamburguesa
+            _sandwich = new Sandwich
             {
                 Pan = pan,
-                Nombre = "Pescado",
+                Nombre = "Queso",
                 Foto = imagen,
                 Carne = carne,
                 Ingredientes = new List<string>()
@@ -24,22 +24,20 @@ namespace Builder.Builder
 
         public override void EstablecerCosto()
         {
-            _hamburguesa.Costo = 55.00;
+            _sandwich.Costo = 25.00;
         }
 
         public override void AgregarIngredientes()
         {
-            _hamburguesa.Ingredientes.Add("Lechuga");
-            _hamburguesa.Ingredientes.Add("Cebolla morada");
-            _hamburguesa.Ingredientes.Add("Jitomate");
-            _hamburguesa.Ingredientes.Add("Mayonesa");
+            _sandwich.Ingredientes.Add("Queso");
+            _sandwich.Ingredientes.Add("Queso amarillo");
 
-            _hamburguesa.StringIngredientes = string.Join(", ", _hamburguesa.Ingredientes.ToArray());
+            _sandwich.StringIngredientes = string.Join(", ", _sandwich.Ingredientes.ToArray());
         }
 
         public override void AgregarPapas()
         {
-            _hamburguesa.Papas = false;
+            _sandwich.Papas = false;
         }
     }
 }

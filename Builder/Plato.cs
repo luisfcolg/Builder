@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Builder.Models;
 
-namespace Builder.Models
+namespace Builder.Builder
 {
-    public enum CarneEnum
+    public abstract class Plato
     {
-        Molida, Angus, Arrachera, Kobe, Pollo, PolloEmpanizado, Pescado, Nada
+        public abstract IComida PrepararPlato();
     }
 }

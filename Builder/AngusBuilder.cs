@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Builder.Models;
+using System.Drawing;
 
 namespace Builder.Builder
 {
     class AngusBuilder : HamburguesaBuilder
     {
-        public AngusBuilder(CarneEnum carne, PanEnum pan)
+        public AngusBuilder(CarneEnum carne, PanEnum pan, Image imagen)
         {
             _hamburguesa = new Hamburguesa
             {
                 Pan = pan,  
                 Nombre = "Angus",
-                // Foto = foto
+                Foto = imagen,
                 Carne = carne,
                 Ingredientes = new List<string>()
             };

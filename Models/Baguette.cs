@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace Builder.Models
 {
-    public class Hamburguesa : IComida
+    public class Baguette : IComida
     {
         public PanEnum Pan { get; set; }
         public double Costo { get; set; }
@@ -18,12 +18,12 @@ namespace Builder.Models
         public string StringIngredientes { get; set; }
         public bool Papas { get; set; }
 
-        public Hamburguesa()
+        public Baguette()
         {
 
         }
 
-        public Hamburguesa(PanEnum pan, double costo, string nombre, CarneEnum carne, List<string> ingredientes, bool papas)
+        public Baguette(PanEnum pan, double costo, string nombre, CarneEnum carne, List<string> ingredientes, bool papas)
         {
             Pan = pan;
             Costo = costo;

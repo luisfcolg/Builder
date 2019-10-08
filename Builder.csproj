@@ -46,15 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\AlbondigasBBuilder.cs" />
     <Compile Include="Builder\AngusBuilder.cs" />
     <Compile Include="Builder\ArracheraBuilder.cs" />
+    <Compile Include="Builder\AtunSBuilder.cs" />
+    <Compile Include="Builder\BaguetteBuilder.cs" />
     <Compile Include="Builder\EmpanizadoBuilder.cs" />
     <Compile Include="Builder\HamburguesaBuilder.cs" />
+    <Compile Include="Builder\JamonBBuilder.cs" />
+    <Compile Include="Builder\JamonSBuilder.cs" />
     <Compile Include="Builder\KobeBuilder.cs" />
+    <Compile Include="Builder\MilanesaSBuilder.cs" />
     <Compile Include="Builder\MolidaBuilder.cs" />
     <Compile Include="Builder\PescadoBuilder.cs" />
     <Compile Include="Builder\BuffaloBuilder.cs" />
+    <Compile Include="Builder\Plato.cs" />
+    <Compile Include="Builder\PolloBBuilder.cs" />
     <Compile Include="Builder\PolloBuilder.cs" />
+    <Compile Include="Builder\QuesoSBuilder.cs" />
+    <Compile Include="Builder\SalamiBBuilder.cs" />
+    <Compile Include="Builder\SalchichaSBuilder.cs" />
+    <Compile Include="Builder\SandwichBuilder.cs" />
+    <Compile Include="Builder\VegetarianoBBuilder.cs" />
     <Compile Include="Director\Cocina.cs" />
     <Compile Include="GUI.cs">
       <SubType>Form</SubType>
@@ -62,9 +75,12 @@
     <Compile Include="GUI.Designer.cs">
       <DependentUpon>GUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Baguette.cs" />
     <Compile Include="Models\CarneEnum.cs" />
     <Compile Include="Models\Hamburguesa.cs" />
+    <Compile Include="Models\IComida.cs" />
     <Compile Include="Models\PanEnum.cs" />
+    <Compile Include="Models\Sandwich.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI.resx">
@@ -116,6 +132,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Pollo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlbondigasB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JamonB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolloB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalamiB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VegetarianoB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AtunS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JamonS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MilanesaS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuesoS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalchichaS.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

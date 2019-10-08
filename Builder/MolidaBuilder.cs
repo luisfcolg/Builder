@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Builder.Models;
+using System.Drawing;
 
 namespace Builder.Builder
 {
     class MolidaBuilder : HamburguesaBuilder
     {
-        public MolidaBuilder(CarneEnum carne, PanEnum pan)
+        public MolidaBuilder(CarneEnum carne, PanEnum pan, Image imagen)
         {
             _hamburguesa = new Hamburguesa
             {
                 Pan = pan,
                 Nombre = "Original",
-                // Foto = foto
+                Foto = imagen,
                 Carne = carne,
                 Ingredientes = new List<string>()
             };

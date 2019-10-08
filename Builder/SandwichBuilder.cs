@@ -7,14 +7,14 @@ using Builder.Models;
 
 namespace Builder.Builder
 {
-    public abstract class HamburguesaBuilder : Plato
+    public abstract class SandwichBuilder : Plato
     {
-        protected Hamburguesa _hamburguesa;
+        protected Sandwich _sandwich;
 
         public string Carne { get; set; }
         public string Pan { get; set; }
 
-        public Hamburguesa ObtenerHamburguesa() { return _hamburguesa; }
+        public Sandwich ObtenerSandwich() { return _sandwich; }
 
         public virtual void EstablecerCosto()
         {
@@ -37,7 +37,7 @@ namespace Builder.Builder
             AgregarIngredientes();
             AgregarPapas();
 
-            return _hamburguesa;
+            return _sandwich;
         }
     }
 }
